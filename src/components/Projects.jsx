@@ -2,6 +2,12 @@ import { useState } from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import ProjectModal from './ProjectModal';
 
+import img1 from '../assets/image/project/project1.png';
+import img2 from '../assets/image/project/project2.png';
+import img3 from '../assets/image/project/project3.png';
+import img4 from '../assets/image/project/project4.png';
+import img5 from '../assets/image/project/project5.png';
+
 const projects = [
   {
     id: 1,
@@ -9,7 +15,7 @@ const projects = [
     subtitle: 'Endpoint & Identity Management',
     description:
       'A comprehensive endpoint & identity management dashboard with device monitoring, compliance tracking, and deployment status visualization.',
-    image: '/project/project1.png',
+    image: img1,
     tags: ['HTML', 'CSS', 'JavaScript'],
     features: [
       'Device platform analytics with interactive charts',
@@ -24,7 +30,7 @@ const projects = [
     subtitle: 'Maintenance & Facilities Management',
     description:
       'An AI-powered maintenance & facilities management platform featuring IoT monitoring, predictive maintenance, and energy consumption analytics.',
-    image: '/project/project2.png',
+    image: img2,
     tags: ['HTML', 'CSS', 'JavaScript'],
     features: [
       'Work order status visualization',
@@ -39,7 +45,7 @@ const projects = [
     subtitle: 'Mobile Device Security & Management',
     description:
       'A mobile device security & management dashboard with platform analytics, compliance monitoring, and security policy management.',
-    image: '/project/project3.png',
+    image: img3,
     tags: ['HTML', 'CSS', 'JavaScript'],
     features: [
       'Multi-platform device enrollment tracking',
@@ -54,7 +60,7 @@ const projects = [
     subtitle: 'HR & Compliance Management',
     description:
       'An HR & compliance management dashboard with performance tracking, absence overview, upcoming reviews, and compliance audit tools.',
-    image: '/project/project4.png',
+    image: img4,
     tags: ['HTML', 'CSS', 'JavaScript'],
     features: [
       'Employee performance trend charts',
@@ -69,7 +75,7 @@ const projects = [
     subtitle: 'SaaS Governance & Access Management',
     description:
       'An identity intelligence & SaaS governance platform with spend analytics, orphaned account detection, and automated offboarding workflows.',
-    image: '/project/project5.png',
+    image: img5,
     tags: ['HTML', 'CSS', 'JavaScript'],
     features: [
       'Application category distribution analytics',
