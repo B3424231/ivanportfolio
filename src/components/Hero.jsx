@@ -1,4 +1,6 @@
 import heroImg from '../assets/image/photo/mangui.jpg';
+import mrbeast from '../assets/image/photo/mrbeast.jpg';
+
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 export default function Hero() {
@@ -111,7 +113,7 @@ export default function Hero() {
               {/* decorative shadow box */}
               <div className="absolute inset-4 bg-neutral-900/5 rounded-[2rem] blur-2xl scale-105" />
               <img
-                src={heroImg}
+                src={mrbeast}
                 alt="Ivan Manguilimotan"
                 className="relative w-full max-w-[420px] rounded-[1.5rem] object-cover shadow-2xl shadow-neutral-400/20"
               />
